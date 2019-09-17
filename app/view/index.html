@@ -1,9 +1,25 @@
 <html lang='en'>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href='../static/style.css'>
+  <script src='../static/client.js'></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 <style>
 .header img {
   float: left;
   width: 105px;
   height: 74px;
+  top: 18px;
+  left: 10px;
 }
 
 .header h1 {
@@ -12,31 +28,28 @@
   left: 10px;
 }
 </style>
-<div class="header">
-  <a href="https://imgbb.com/"><img src="https://i.ibb.co/g78Dyz1/APSSlogo.png" alt="APSSlogo" border="0"></a>
-  <center>
-  <h1>🌹 Classify Flower Images</h1>
-  <p>
-      Use images of <strong>Rose</strong>, <strong>Jasmine</strong>, <strong>Lilly</strong> ,<strong>Lavender</strong> or
-      all Four!
-    </p>
-  </center>
-</div>
- <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
 
 
-<head>
-  <meta charset='utf-8'>
-  <link rel='stylesheet' href='../static/style.css'>
-  <script src='../static/client.js'></script>
 </head>
 <body>
 <div>
   <div class='center'>
-    
+    <div class="header">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/g78Dyz1/APSSlogo.png" alt="APSSlogo" border="0"></a>
+  <h1>🌹 Classify Flower Images</h1>
+  <p>
+      Use images of <strong>Rose</strong>, <strong>Jasmine</strong>, <strong>Lilly</strong> , or
+      all Four!
+    </p>
+  </center>
+</div>
     <div class='content'>
+	
+	<div class="col-md-3">
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</div>
+	
+	<div class="col-md-6">
       <div class='no-display'>
         <input id='file-input'
                class='no-display'
@@ -59,6 +72,7 @@
         <label id='result-label'></label>
       </div>
     </div>
+	</div>
   </div>
 </div>
 </body>
